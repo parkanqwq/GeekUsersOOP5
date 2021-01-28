@@ -9,6 +9,10 @@ public class Employee {
     private int salary;
     private int age;
 
+    public Employee(){
+
+    }
+
     public Employee(String fullName, String position, String email, String number, int salary, int age) {
         this.fullName = fullName;
         this.position = position;
