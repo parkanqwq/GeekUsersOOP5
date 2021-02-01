@@ -20,10 +20,10 @@ public class Employee {
         this.number = number;
         this.salary = salary;
         this.age = age;
+        changeNumber(number);
     }
 
     public void infoEmployee(){
-        changeNumber(number);
         changeEmail(email);
         changeAge(age);
         System.out.println("\nФИО: " + fullName + "\nДолжность: " + position + "\nЭлектронная почта: " + email +
